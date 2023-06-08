@@ -1,0 +1,171 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\x64\Debug\kernel.cu.obj "C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu" 
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(135): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(142): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(148): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(154): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(161): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(167): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(173): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning #611-D: overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+    class  AffineWarper : public PlaneWarper
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/matchers.hpp(182): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::BestOf2NearestMatcher"
+    class  BestOf2NearestMatcher : public FeaturesMatcher
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/matchers.hpp(236): warning #611-D: overloaded virtual function "cv::detail::FeaturesMatcher::match" is only partially overridden in class "cv::detail::AffineBestOf2NearestMatcher"
+    class  AffineBestOf2NearestMatcher : public BestOf2NearestMatcher
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+    class  FeatherBlender : public Blender
+           ^
+  
+G:\uni\prak\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning #611-D: overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+    class  MultiBandBlender : public Blender
+           ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(135): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(142): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(148): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(154): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(161): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(167): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(173): warning #546-D: transfer of control bypasses initialization of:
+              variable "dimBlock" (declared at line 176)
+              variable "dimGrid" (declared at line 177)
+            goto Error;
+            ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(127): warning #177-D: variable "dw" was declared but never referenced
+        unsigned char *dtmp, *dref, dw, dh;
+                                    ^
+  
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(127): warning #177-D: variable "dh" was declared but never referenced
+        unsigned char *dtmp, *dref, dw, dh;
+                                        ^
+  
+  kernel.cu
+  tmpxft_0000011c_00000000-7_kernel.cudafe1.cpp
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(12): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(61): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(62): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(64): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(65): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(66): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(69): warning C4244: '=': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=unsigned char
+          ]
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(84): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(177): warning C4533: initialization of 'dimGrid' is skipped by 'goto Error'
+  C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(177): note: see declaration of 'dimGrid'
+  C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(203): note: see declaration of 'Error'
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(176): warning C4533: initialization of 'dimBlock' is skipped by 'goto Error'
+  C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(176): note: see declaration of 'dimBlock'
+  C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(203): note: see declaration of 'Error'
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(127): warning C4101: 'dh': unreferenced local variable
+C:\Users\slava\source\repos\CUDAPrakProj2\CUDAPrakProj2\kernel.cu(127): warning C4101: 'dw': unreferenced local variable
+  CUDAPrakProj2.vcxproj -> C:\Users\slava\source\repos\CUDAPrakProj2\x64\Debug\CUDAPrakProj2.exe
